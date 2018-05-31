@@ -1,0 +1,142 @@
+/** **listview config generate by KAKA LAZY TOOLS
+*ENJOOY CODING!
+*VERSION 0.1
+*/
+exports.title = 'activity/usercouponlist'
+exports.url = 'v2/admin/user/getusercoupons'
+exports.pageSize = 10
+exports.items = {}
+
+exports.items.no = {}
+exports.items.no.index = 'no'
+exports.items.no.label = '编号'
+exports.items.voucherno = {}
+exports.items.voucherno.index = 'voucherno'
+exports.items.voucherno.label = '名称'
+// exports.items.voucherno.display='no';
+// exports.items.voucherno.value='no';
+exports.items.voucherno.display = 'name'
+// exports.items.voucherno.value='name';
+// exports.items.voucherno.display='type';
+// exports.items.voucherno.value='type';
+// exports.items.voucherno.display='val1';
+// exports.items.voucherno.value='val1';
+// exports.items.voucherno.display='val2';
+// exports.items.voucherno.value='val2';
+// exports.items.voucherno.display='val3';
+// exports.items.voucherno.value='val3';
+// exports.items.voucherno.display='val4';
+// exports.items.voucherno.value='val4';
+// exports.items.voucherno.display='model';
+// exports.items.voucherno.value='model';
+// exports.items.voucherno.display='event';
+// exports.items.voucherno.value='event';
+// exports.items.voucherno.display='filter';
+// exports.items.voucherno.value='filter';
+// exports.items.voucherno.display='timespan';
+// exports.items.voucherno.value='timespan';
+// exports.items.voucherno.display='count';
+// exports.items.voucherno.value='count';
+// exports.items.voucherno.display='usecount';
+// exports.items.voucherno.value='usecount';
+// exports.items.voucherno.display='timeoutcount';
+// exports.items.voucherno.value='timeoutcount';
+// exports.items.voucherno.display='locktime';
+// exports.items.voucherno.value='locktime';
+exports.items.activity = {}
+exports.items.activity.index = 'activity'
+exports.items.activity.label = '发卷活动'
+// exports.items.activity.display='no';
+// exports.items.activity.value='no';
+exports.items.activity.display = 'name'
+// exports.items.activity.value='name';
+// exports.items.activity.display='start';
+// exports.items.activity.value='start';
+// exports.items.activity.display='end';
+// exports.items.activity.value='end';
+// exports.items.activity.display='limittype';
+// exports.items.activity.value='limittype';
+// exports.items.activity.display='event';
+// exports.items.activity.value='event';
+// exports.items.activity.display='limitcount';
+// exports.items.activity.value='limitcount';
+// exports.items.activity.display='count';
+// exports.items.activity.value='count';
+// exports.items.activity.display='filter';
+// exports.items.activity.value='filter';
+// exports.items.activity.display='status';
+// exports.items.activity.value='status';
+// exports.items.activity.display='code';
+// exports.items.activity.value='code';
+exports.items.userid = {}
+exports.items.userid.index = 'userid'
+exports.items.userid.label = '用户ID'
+exports.items.userid.display = 'id'
+exports.items.userid.filter = true
+exports.items.username = {
+  index: 'userid',
+  label: '用户姓名',
+  display: 'name',
+}
+exports.items.usermobile = {
+  index: 'userid',
+  label: '用户手机',
+  display: 'mobile',
+}
+// exports.items.userid.value='id';
+// exports.items.userid.display='loginid';
+// exports.items.userid.value='loginid';
+// exports.items.userid.display='nickname';
+// exports.items.userid.value='nickname';
+// exports.items.userid.display='name';
+// exports.items.userid.value='name';
+// exports.items.userid.display='idno';
+// exports.items.userid.value='idno';
+// exports.items.userid.display='mobile';
+// exports.items.userid.value='mobile';
+// exports.items.userid.display='status';
+// exports.items.userid.value='status';
+// exports.items.userid.display='lastlogin';
+// exports.items.userid.value='lastlogin';
+// exports.items.userid.display='with';
+// exports.items.userid.value='with';
+// exports.items.userid.display='withdate';
+// exports.items.userid.value='withdate';
+// exports.items.userid.display='headimgurl';
+// exports.items.userid.value='headimgurl';
+// exports.items.userid.display='dream1';
+// exports.items.userid.value='dream1';
+// exports.items.userid.display='dream2';
+// exports.items.userid.value='dream2';
+// exports.items.userid.display='checkidno';
+// exports.items.userid.value='checkidno';
+// exports.items.userid.display='invcode';
+// exports.items.userid.value='invcode';
+// exports.items.userid.display='currenttype';
+// exports.items.userid.value='currenttype';
+// exports.items.userid.display='nexttype';
+// exports.items.userid.value='nexttype';
+// exports.items.userid.display='currentrbtype';
+// exports.items.userid.value='currentrbtype';
+// exports.items.userid.display='nextrbtype';
+// exports.items.userid.value='nextrbtype';
+exports.items.storagetime = {}
+exports.items.storagetime.index = 'storagetime'
+exports.items.storagetime.label = '发券时间'
+exports.items.status = {}
+exports.items.status.index = 'status'
+exports.items.status.label = '状态'
+exports.items.status.filter = true
+// exports.items.status.display='no';
+// exports.items.status.value='no';
+exports.items.status.display = 'name'
+// exports.items.status.value='name';
+exports.items.jobno = {}
+exports.items.jobno.index = 'jobno'
+exports.items.jobno.label = '交易单号'
+exports.items.usetime = {}
+exports.items.usetime.index = 'usetime'
+exports.items.usetime.label = '使用时间'
+exports.items.outtime = {}
+exports.items.outtime.index = 'outtime'
+exports.items.outtime.label = '过期时间'

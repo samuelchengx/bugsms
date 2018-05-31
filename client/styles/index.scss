@@ -1,0 +1,13 @@
+@import 'antd/dist/antd.css';
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+}
+
+ol,
+ul {
+    padding-left: 30px;
+}
+td {word-break: keep-all !important;
+white-space: nowrap !important;}
+th {word-break: keep-all !important;
+    white-space: nowrap !important;}
